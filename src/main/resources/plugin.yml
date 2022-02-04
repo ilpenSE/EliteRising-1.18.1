@@ -1,0 +1,24 @@
+name: EliteRising
+version: ${project.version}
+main: tr.elite.eliterising.EliteRising
+api-version: 1.17
+authors: [ SadeceEmir, EliteDevelopment ]
+description: EliteRising Lav Yükseliyor Paketi
+permissions:
+  eliterising.başlat:
+    description: Lav Yükseliyoru başlatmak için gereken izin.
+    default: op
+commands:
+  başlat:
+    aliases:
+      - start
+    description: Lav Yükseliyor'u başlat.
+    usage: /<command> [normal|elytra|op|archery|build] [normal|solo|duo|triple|squad|half]
+  takım:
+    aliases:
+      - team_el
+    description: Takım ile ilgili komutlar.
+    usage: /<command> [oluştur|ayrıl|davet|mesaj|list]
+  davet:
+    description: Takım davetiyle ilgili komutlardır. Bu komut oyuncu tarafından direkt olarak kullanılamaz.
+    usage: /<command>

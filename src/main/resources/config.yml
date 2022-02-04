@@ -1,0 +1,5 @@
+startHeight: -54
+borderSize: 200
+block: LAVA
+gracePeriod: 10
+increaseAmount: 2
