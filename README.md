@@ -28,3 +28,4 @@ Archery: Power 3 and Punch 1 bow and 10 arrows
 -Removed help command
 -New improved chat.
 -Added welcome message (Turkish for now).
+*(English commands are not working fot now, we are gonna fix this bug to 1.2 update.)*
